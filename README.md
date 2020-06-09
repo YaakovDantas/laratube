@@ -2,7 +2,25 @@ Tutorial
 
 Baixar projeto
 
+Configurar no arquivo .env, banco de dados e chave de acesso, pode ser criado aqui `https://console.developers.google.com/project`
+
+```
+
+DB_CONNECTION=pgsql
+DB_HOST=127.0.0.1
+DB_PORT=5432
+DB_DATABASE=nome-banco
+DB_USERNAME=nome-usuario
+DB_PASSWORD=senha
+
+
+GOOGLE_CLIENT_ID=
+GOOGLE_CLIENT_SECRET=
+
+```
+
 Executar `php artisan migrate`
+
 Executar `php artisan serve`
 
 No navegador acessar
